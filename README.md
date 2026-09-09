@@ -4,4 +4,4 @@
 - [Pages QuickStart](https://docs.github.com/en/pages/quickstart)
 
 - By default, the title of your site is username.github.io
-- so: <https://alapolloni.github.io>
+  - so: <https://alapolloni.github.io>
