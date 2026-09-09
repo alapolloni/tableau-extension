@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>GSSA Hosting Test</title>
+  <script src="tableau.extensions.1.latest.min.js"></script>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 16px;
+      font-family: -apple-system, "Segoe UI", Arial, sans-serif;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+    #status {
+      padding: 12px;
+      border-radius: 6px;
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+    .ok   { background: #d7f5dd; color: #14532d; border: 1px solid #86d99a; }
+    .err  { background: #fde2e2; color: #7f1d1d; border: 1px solid #f2a5a5; }
+    .wait { background: #eef2f7; color: #374151; border: 1px solid #cbd5e1; }
+    dl { margin: 0; }
+    dt { font-weight: 600; color: #374151; }
+    dd { margin: 0 0 8px 0; color: #111827; word-break: break-all; }
+  </style>
+</head>
+<body>
+  <div id="status" class="wait">Waiting for Tableau to initialize the extension&hellip;</div>
+  <dl id="details"></dl>
+  <script src="test.js"></script>
+</body>
+</html>
